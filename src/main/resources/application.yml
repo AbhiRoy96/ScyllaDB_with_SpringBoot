@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: feed-service
+
+scylla:
+  contact-points: localhost:9042
+  datacenter: datacenter1
+  keyspace: feed_service
